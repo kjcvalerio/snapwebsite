@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header nav {
+   display: flex;
+   margin-top: 20px ;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px 15px;
+  
+}
+
+li:first-child{
+    margin-left: 0px;
+}
+
+li:last-child {
+    margin-right: 50px;
+}
+
+select{
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;   
+}
+
+option{
+    border-style: none;
+}
+
+
+
+
+
+a{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none; 
+    color: black;
+}
+
+.logo{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.nav-side1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.left-side{
+ 
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+}
+
+
+.right-side{
+
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+   
+}
+
+.learn-more-btn{
+    width: 100px;
+    height: 40px;
+  
+
+}
+
+.img-main{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-top: 230px;
+}
+
+h1{
+    font-weight:1000;
+    font-size:xx-large;
+    margin-bottom: 0px;
+    margin-top: 250px;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+.learn-more-btn{
+    margin-left: 0px;
+    margin-top: 120px;
+    transition: 0.5s;
+}
+
+.learn-more-btn:hover{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+.clients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:space-around;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+}
